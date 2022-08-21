@@ -29,17 +29,21 @@
     width: 100%;
     padding: 4rem 0;
   }
-  
-  .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
+
+  .btn-outline {
+    @apply border-2 font-medium border-black
+    hover:bg-black hover:text-white
   }
 
-  /* button {
-    @apply text-white border bg-black border-white
-    hover:bg-transparent hover:text-black rounded-none
-  } */
+  .btn-full {
+    @apply font-medium text-white bg-black border-black
+    hover:bg-white hover:text-black hover:border-black border-2
+  }
+  
+  .container {
+    @apply lg:px-48 md:px-32 px-4
+  }
+
 }
 
 

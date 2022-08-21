@@ -48,7 +48,7 @@ const Footer = () => {
           <p className='font-normal text-white pt-2'>Subscribe to our Newsletter</p>
           <p className='li-2'>Get notified on each update</p>
           <form className='flex flex-col'>
-                <input className='w-full p-2 mr-4 mb-4 bg-transparent border-1 border-white ' type="email" placeholder='Email'></input>
+                <input className='w-full p-2 mr-4 mb-4 bg-transparent border-1 border-white ' type="email" placeholder='Input your email here'></input>
                 <button className='bg-white font-semibold p-2 mb-4 '>Subcribe</button>
           </form>
         </div>

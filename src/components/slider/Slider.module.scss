@@ -1,0 +1,8 @@
+.herotxt {
+    font-family: 'PT Serif';
+    line-height: 90px;
+}
+
+@media screen and (max-width: 1023px) {
+    .herotxt {line-height: 60px;}
+}
