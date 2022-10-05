@@ -8,7 +8,7 @@ import { CreditCardIcon, ShoppingCartIcon } from '@heroicons/react/outline';
 
 const Slider = () => {
   return (
-    <section className='lg:pt-10 md:pt-20 h-full max-h-[640px] mb-8 xl:mb-24 pb-20'>
+    <section className='lg:pt-0 md:pt-20 h-full max-h-[640px] mb-8 xl:mb-24 pb-20'>
         <div className='flex flex-col lg:flex-row'>
             <div className='lg:px-32 md:px-24 px-4 lg:pt-10 md:pt-16 pt-20
                 flex flex-col lg:items-start text-left
@@ -37,7 +37,7 @@ const Slider = () => {
                 
             </div>
 
-            <div className='hidden lg:h-4/5  flex-1 lg:flex lg:w-[400px] justify-end items-end pt-4'>
+            <div className='hidden lg:h-4/5  flex-1 lg:flex lg:w-[400px] justify-end items-end'>
                 <img src={heroImg} alt='' />
             </div>
         </div>

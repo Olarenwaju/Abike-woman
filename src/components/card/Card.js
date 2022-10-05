@@ -1,7 +1,5 @@
 import styles from "./Card.module.scss";
 
-
-
 export const Card = ({children, cardClass}) => {
   return (
     <div className={`${styles.Card} ${cardClass}`}>
@@ -9,3 +7,5 @@ export const Card = ({children, cardClass}) => {
     </div>
   )
 }
+
+export default Card;

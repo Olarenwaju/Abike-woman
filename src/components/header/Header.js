@@ -92,7 +92,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="flex justify-between items-center w-screen h-[80px] z-10 bg-white fixed drop-shadow-lg lg:px-32 md:px-24 px-4">
+      <div className="flex justify-between items-center w-screen h-[80px] z-20 bg-white sticky drop-shadow-lg lg:px-32 md:px-24 px-4">
         {logo}
 
         {/* {...showMenu ? 'translate-x-0' : 'translate-x-full'} */}
@@ -172,6 +172,7 @@ const Header = () => {
                       Sign Up
                     </Link>
               </button> */}
+              
             </span>
             
           </div>
